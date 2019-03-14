@@ -1,0 +1,48 @@
+# ignore cache folder
+/silverstripe-cache/
+
+# ignore all environment files
+_ss_environment.php
+
+# ignore build tools
+/tools/phing-metadata
+
+# ignore composer vendor folder
+/vendor/
+
+# custom ignore
+*.bak
+*.sql
+*.tar.xz
+README.md
+/assets/
+/cms/
+composer.lock
+/framework/
+index.php
+install-frameworkmissing.html
+/mysite/.htaccess
+/mysite/_config.php
+/node_modules/
+phpcs.xml.dist
+/reports/
+/siteconfig/
+web.config
+.editorconfig
+.htaccess
+betterbuttons/
+import/
+minify/
+silverstripe-mock-dataobjects/
+sortablefile/
+sortablegridfield/
+package-lock.json
+favicon.ico
+themes/simple
+twofactorauth/
+install.php
+plugins-composer.json
+themes/main/js/vendor/
+themes/main/splices/
+timepickerfield/
+colorpicker/

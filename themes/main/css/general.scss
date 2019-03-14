@@ -1,0 +1,52 @@
+/*
+* Body
+*/
+body {
+	overflow-x: hidden;
+}
+
+/*
+* Main
+*/
+.main {
+	position: relative;
+	min-height: 100vh;
+}
+
+/*
+* Header
+* hdr : header
+*/
+.hdr-frame {
+
+}
+
+/*
+* Footer
+* ftr : footer
+*/
+.ftr-frame {
+
+}
+
+/*
+* Frame Container
+* frm-cntnr : frame contianer
+*/
+.frm-cntnr {
+	position: relative;
+	margin: auto;
+	height: 100%;
+	box-sizing: border-box;
+
+	&.align-r {
+		margin: 0;
+		margin-left: auto;
+	}
+
+	&.align-l {
+		margin: 0;
+		margin-right: auto;
+	}
+
+}
