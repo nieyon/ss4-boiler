@@ -12,7 +12,7 @@
         <link rel="shortcut icon" href="$Favicon.Url" type="image/x-icon" />
         <% end_control %>
         <% control HeaderFooter %>
-        <meta property="og:image" content="$DesktopLogo.Url">
+        <meta property="og:image" content="$Logo.Url">
         <% end_control %>
         <meta property="og:title" content="$Title">
         <meta property="og:description" content="$MetaDescription">
