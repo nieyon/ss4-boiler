@@ -75,17 +75,17 @@
             themeDir = '$ThemeDir';
         </script>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+       <!-- Global site tag (gtag.js) - Google Analytics -->
 
         <!-- Script -->
-        <script type="text/javascript" src="$ThemeDir/assets/vendor.min.js"></script>
+        <!-- <script type="text/javascript" src="$ThemeDir/assets/vendor.min.js"></script> -->
         <script type="text/javascript" src="$ThemeDir/assets/app.min.js"></script>
 
         <!-- jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
         <!-- Validate -->
         <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
@@ -95,7 +95,6 @@
         
         <!-- Slick -->
         <script src="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         
         <!-- Remodal -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/remodal/1.0.6/remodal.min.js"></script>
@@ -120,17 +119,18 @@
         <!-- HoverIntent -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js"></script>
         
-        <!-- Storelocator -->
-        <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBKese9Nxt27v9smmicyvJ037PwXfGbe3E&sensor=true"></script>
+          <!-- GoogleMap -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsZhlAVfe9K80UZJvHRTBmMmsXpD9ocqo"></script>
         <script type="text/javascript" src="$ThemeDir/js/vendor/chosen/chosen.jquery.min.js"></script>
         <script type="text/javascript" src="$ThemeDir/js/storelocator.js"></script>
+
         
         <!-- Light Gallery -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/js/lightgallery.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-video@1.2.2/dist/lg-video.min.js"></script>
         
         <!-- Script --> 
-        <script type="text/javascript" src="$ThemeDir/assets/script.min.js"></script>
+        <script type="text/javascript" src="$ThemeDir/js/script.js"></script>
 
     </body>
 </html>
