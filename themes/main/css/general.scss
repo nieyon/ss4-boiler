@@ -1,0 +1,93 @@
+/*
+* Body
+*/
+body {
+	overflow-x: hidden;
+}
+
+/*
+* Main
+*/
+.main {
+	position: relative;
+	min-height: 100vh;
+}
+
+/*
+* Header
+* hdr : header
+*/
+.hdr-frame {
+
+}
+
+/*
+* Footer
+* ftr : footer
+*/
+.ftr-frame {
+
+}
+
+/*
+* Frame Container
+* frm-cntnr : frame contianer
+*/
+.frm-cntnr {
+	position: relative;
+	margin: auto;
+	height: 100%;
+	box-sizing: border-box;
+
+	&.align-r {
+		margin: 0;
+		margin-left: auto;
+	}
+
+	&.align-l {
+		margin: 0;
+		margin-right: auto;
+	}
+
+}
+
+/** 
+ * Frame Background
+ * frm-bckgrnd : frame background
+ */
+$frame-bg--pos__t: top center;
+$frame-bg--pos__c: center center;
+$frame-bg--pos__b: bottom center;
+
+.frm-bckgrnds {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: $frame-bg--pos__c;
+
+    &.bring-front {
+    	z-index: -1;
+    }
+    &.bring-back {
+    	z-index: -2;
+    }
+    &.size-cover {
+    	background-size: cover;
+    }
+    &.size-contain{
+    	background-size: contain;
+    }
+    &.align-r {
+    	right: 0;
+    }
+    &.align-l {
+    	left: 0;
+    }
+    &.align-c {
+    	left: 50%;
+    	transform: translateX(-50%);
+    }
+}

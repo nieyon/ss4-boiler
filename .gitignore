@@ -1,0 +1,15 @@
+/silverstripe-cache/
+/.env
+/vendor/
+/themes/simple/
+/resources/
+/public/resources/
+.editorconfig
+.env.example
+.htaccess
+README.md
+betterbuttons/
+composer.lock
+node_modules/
+package-lock.json
+phpcs.xml.dist
