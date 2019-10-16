@@ -18,6 +18,7 @@
         <meta property="og:url" content="{$AbsoluteBaseURL}">
         <meta property="og:site_name" content="$SiteConfig.Title">
         <meta property="og:type" content="website">
+
         <%-- <% loop HeaderFooter %>    --%>
         <meta name="keywords" content="$SEO">
         <%-- <% if $Description %> --%>
@@ -45,14 +46,9 @@
         
         <!-- SweetAlert -->
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
-
-        <!-- Fonts -->
-        <link href="$ThemeDir/fonts/Bookman-Old-Style/style.css" rel="stylesheet" />
-        <link href="$ThemeDir/fonts/Muli/style.css" rel="stylesheet" />
-        <link href="$ThemeDir/fonts/Roboto/style.css" rel="stylesheet" />
-
         <!-- Compiled CSS -->
         <%-- <link href="$ThemeDir/assets/app.min.css" rel="stylesheet"> --%>
+
         
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -60,8 +56,6 @@
 
     </head>
     <body class="">
-
-        
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -84,6 +78,7 @@
             themeDir = '$ThemeDir';
         </script>
 
+
         <!--Start of Tawk.to Script-->
         <%--  --%>
 
@@ -94,6 +89,7 @@
         <script type="text/javascript" src="$ThemeDir/assets/vendor.js"></script>
         <script type="text/javascript" src="$ThemeDir/assets/app.js"></script>
         <script type="text/javascript" src="$ThemeDir/assets/script.js"></script>
+
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -116,7 +112,9 @@
         
         <!-- SweetAlert -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
         <%-- // <script src="//cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script> --%>
+
 
         <!-- Scrollify -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.5/jquery.scrollify.min.js"></script>    
@@ -135,12 +133,12 @@
         <!-- HoverIntent -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js"></script>
         
-
         <!-- Storelocator -->
         <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBKese9Nxt27v9smmicyvJ037PwXfGbe3E&sensor=true"></script>
         <script type="text/javascript" src="$ThemeDir/js/vendor/chosen/chosen.jquery.min.js"></script>
         <script type="text/javascript" src="$ThemeDir/js/storelocator.js"></script>
         
+
         
         <!-- Light Gallery -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/js/lightgallery.min.js"></script>
@@ -158,7 +156,6 @@
         <%-- // <script type="text/javascript" src="$ThemeDir/js/script.js"></script> --%>
         <script type="text/javascript" src="$ThemeDir/js/animation.js"></script>
         
-
 
     </body>
 </html>
