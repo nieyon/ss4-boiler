@@ -11,9 +11,9 @@ Front-End Developers Silverstripe Template
 - type ```sudo chmod -R 775 .```
 - go to URL ```localhost/<project-name>/public``` then set up and install
 - go to .env and add
-	```SS_DEFAULT_ADMIN_USERNAME='admin'
-SS_DEFAULT_ADMIN_PASSWORD='admin'
-SS_ENVIRONMENT_TYPE='dev'```
+```SS_DEFAULT_ADMIN_USERNAME='admin'```
+```SS_DEFAULT_ADMIN_PASSWORD='admin'```
+```SS_ENVIRONMENT_TYPE='dev'```
 - type ```git init```
 - type ```git remote add boiler ssh://git@gitlab.praxxys.ph:52222/praxxys-websites/silverstripe-4.3.3-boiler.git```
 - type ```git pull boiler dev```
