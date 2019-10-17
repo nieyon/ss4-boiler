@@ -7,25 +7,24 @@
         <title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> | $SiteConfig.Title</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <%-- <% loop HeaderFooter %>     --%>
+        <meta name="description" content="$MetaDescription">
+        <% loop HeaderFooter %>    
         <link rel="shortcut icon" href="$Favicon.Url" type="image/x-icon" />
-        <%-- <% end_loop %> --%>
-        <%-- <% loop HeaderFooter %> --%>
+        <% end_loop %>
+        <% loop HeaderFooter %>
         <meta property="og:image" content="$HeaderLogo.Url">
-        <%-- <% end_loop %> --%>
+        <% end_loop %>
         <meta property="og:title" content="$Title">
         <meta property="og:description" content="$MetaDescription">
         <meta property="og:url" content="{$AbsoluteBaseURL}">
         <meta property="og:site_name" content="$SiteConfig.Title">
         <meta property="og:type" content="website">
 
-        <%-- <% loop HeaderFooter %>    --%>
+        <% loop HeaderFooter %>   
         <meta name="keywords" content="$SEO">
-        <%-- <% if $Description %> --%>
         <meta name="description" content="$Description">
-        <%-- <% end_if %> --%>
-        <%-- <% end_loop %> --%>
-        <meta name="description" content="$MetaDescription">
+        <% end_loop %>
+        
         <!-- Ionicon -->
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
         <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
@@ -46,9 +45,7 @@
         
         <!-- SweetAlert -->
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
-        <!-- Compiled CSS -->
-        <%-- <link href="$ThemeDir/assets/app.min.css" rel="stylesheet"> --%>
-
+        
         
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -92,7 +89,6 @@
 
 
         <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
@@ -113,9 +109,6 @@
         <!-- SweetAlert -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 
-        <%-- // <script src="//cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script> --%>
-
-
         <!-- Scrollify -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.5/jquery.scrollify.min.js"></script>    
 
@@ -134,26 +127,16 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js"></script>
         
         <!-- Storelocator -->
-        <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBKese9Nxt27v9smmicyvJ037PwXfGbe3E&sensor=true"></script>
-        <script type="text/javascript" src="$ThemeDir/js/vendor/chosen/chosen.jquery.min.js"></script>
-        <script type="text/javascript" src="$ThemeDir/js/storelocator.js"></script>
-        
-
+        <%-- // <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBKese9Nxt27v9smmicyvJ037PwXfGbe3E&sensor=true"></script> --%>
+        <%-- // <script type="text/javascript" src="$ThemeDir/js/vendor/chosen/chosen.jquery.min.js"></script> --%>
+        <%-- // <script type="text/javascript" src="$ThemeDir/js/storelocator.js"></script> --%>
         
         <!-- Light Gallery -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/js/lightgallery.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-video@1.2.2/dist/lg-video.min.js"></script>
-        
-        <%-- Text animation --%>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  
 
-        <%-- Pagination --%>
-        <%-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.js"></script> --%>
-
-        <%-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.1/jquery.twbsPagination.min.js"></script> --%>
-        
-        <!-- Script --> 
-        <%-- // <script type="text/javascript" src="$ThemeDir/js/script.js"></script> --%>
+        <!-- Script -->
         <script type="text/javascript" src="$ThemeDir/js/animation.js"></script>
         
 
