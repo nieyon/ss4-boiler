@@ -16,6 +16,6 @@ Front-End Developers Silverstripe Template
 ```SS_ENVIRONMENT_TYPE='dev'```
 - type ```git init```
 - type ```git remote add boiler ssh://git@gitlab.praxxys.ph:52222/praxxys-websites/silverstripe-4.3.3-boiler.git```
-- type ```git pull boiler dev```
+- type ```git pull boiler master```
 - type ```composer update```
 - type ```npm install```
