@@ -2,7 +2,7 @@
 
 Front-End Developers Silverstripe Template
 
-# How to install silverstripe 4.3.3 boiler
+## How to install Silverstripe 4.3.3 boiler
 
 - go to /var/www/html
 - create your project and type ```composer create-project silverstripe/installer <project-name> 4.3.3```
