@@ -1,5 +1,3 @@
-<div class="ftr-frame">
-	<div class="width--100 align-c">
-		<p>This is footer</p>
-	</div>
+<div class="ftr-frame__copyright frm-desc">
+	<p>$Now.Year &copy; $SiteConfig.Title All Rights Reserved</p>
 </div>

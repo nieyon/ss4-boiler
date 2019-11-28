@@ -10,26 +10,36 @@
  * --
  * Add all the colors that you needed. Format: color--[colorname]
  */
+/* Primary Colors */
+$color--brown: #b87e2f;
 
-$color--darkred: #781915;
-$color--red: #D52E29;
-$color--lightred: #FF5D58;
-$color--black: #444;
-$color--gray: #A8A8A8;
-$color--white: #F6F6F6;
+/* Secondary Colors */
+$color--blue: #2f5094;
+$color--gray: #b9b9b9;
+$color--white: #ffffff;
 
 
 /** 
  * FONTS
  * --
- * Add all the fonts that you needed. Format: font--[number]
  */
 
-$font--1: 'Questrial', sans-serif;	
-$font--2: 'Questrial', sans-serif;
+$font--1: '';	
+$font--2: '';
 
 
 /** 
  * PADDING
+ * --
  */
 $frm-padding: 70px 0; // Padding for top & bottom
+
+/** 
+ * Frame Background
+ * --
+ */
+$frame-bg--pos__t: top center;
+$frame-bg--pos__r: right center;
+$frame-bg--pos__b: bottom center;
+$frame-bg--pos__l: left center;
+$frame-bg--pos__c: center center;

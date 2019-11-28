@@ -64,6 +64,18 @@
             $Form
             $Layout
 
+            <% if ClassName == 'SilverStripe\ErrorPage\ErrorPage' %>
+            <% if $Content %>
+            <div class="page-errorCon align-c">
+                <div class="vertical-parent">
+                    <div class="vertical-align frm-desc">
+                        $Content
+                    </div>
+                </div>
+            </div>
+            <% end_if %>
+            <% end_if %>
+
         </div>
 
         <% include Footer %>
@@ -111,7 +123,6 @@
 
         <!-- Scrollify -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.5/jquery.scrollify.min.js"></script>    
-
         <!-- TweenMax -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
